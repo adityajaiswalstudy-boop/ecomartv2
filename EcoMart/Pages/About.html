@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - EcoMart</title>
+    <link rel="stylesheet" href="/Css/style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border"><div class="logo"></div></div>
+            <div class="Name border"><p class="EcoMart">EcoMart</p></div>
+            <div class="Name-border"></div>
+            <div class="nav-home border">
+                <div class="add-home">
+                    
+                    <a href="../index.html" class="Tag">Home</a>
+                </div>
+            </div>
+            <div class="nav-products border">
+                <div class="add-products">
+                    
+                    <a href="./product.html" class="Tag">Product</a>
+                </div>
+            </div>
+            <div class="nav-blog border"><div class="add-blog"><a href="./Blog.html" class="Tag">Blog</a></div></div>
+            <div class="nav-research border">
+                <div class="add-research">
+                    
+                    <a href="./Research.html" class="Tag">Research</a>
+                </div>
+            </div>
+            <div class="nav-aboutUs border">
+                <div class="add-aboutUs">
+                    
+                    <a href="./About.html" class="Tag" style="background-color: #244a2f; color: white; padding: 8px 16px; text-decoration: none; border-radius: 5px;">About Us</a>
+                </div>
+            </div>
+             
+            <div class="Name-border"></div>
+            <div class="nav-cart border">
+                <div class="add-cart">
+                    
+                    <p class="Cart">Cart</p>
+                </div>
+            </div>
+        </div>                                            
+    </header>
+
+<div style="padding: 20px; background-color: #f5f5f5;">
+    <a href="javascript:history.back()" style="display: inline-block; padding: 10px 20px; background-color: #27ae60; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;">← Back</a>
+</div>
+
+        <div id="team-section">
+        <center>
+            <h2 class ="abc" >Meet Our Team</h2>
+            <p class="def" style="text-align: center;">Our Team consists of members from all walks of life and experiences</p>
+        </center>
+    </div>
+
+    <div class="team-container">
+        <div class="profile-card member" onclick="window.location.href='Aditya.html';">
+            <div class="profile-image"><img src="/images/Aditya.jpeg" alt="Aditya"></div>
+            <div class="profile-content">
+                <h1>Aditya Jaiswal</h1>
+                <h3>Project Lead</h3>
+                <p class="tagline">System Strategy Analyst & Growth Planner</p>
+                <div class="skills"><span>HTML & CSS</span><span>Leadership</span><span>Balsamiq</span></div>
+                <div class="socials"><i class="fa-solid fa-envelope"></i><i class="fa-brands fa-linkedin"></i></div>
+            </div>
+        </div>
+
+        <div class="profile-card" onclick="window.location.href='Oozam.html';">
+            <div class="profile-image"><img src="/images/Oozam.png" alt="Oozam"></div>
+            <div class="profile-content">
+                <h1>Oozam Pradhananga</h1>
+                <h3>Blog and Documentation</h3>
+                <p class="tagline">Optimizing sustainable digital systems.</p>
+                <div class="skills"><span>Html & Css</span><span>Team Management</span></div>
+                <div class="socials"><i class="fa-solid fa-envelope"></i><i class="fa-brands fa-github"></i></div>
+            </div>
+        </div>
+
+        <div class="profile-card" onclick="window.location.href='Aavashyak.html';">
+            <div class="profile-image"><img src="/images/aavashyak.jpeg" alt="Aavashyak"></div>
+            <div class="profile-content">
+                <h1>Aavashyak Pokharel</h1>
+                <h3>Backend Developer</h3>
+                <p class="tagline">Bridging convenience and conservation.</p>
+                <div class="skills"><span>JavaScript</span><span>Research</span></div>
+                <div class="socials"><i class="fa-solid fa-envelope"></i><i class="fa-brands fa-linkedin"></i></div>
+            </div>
+        </div>
+
+        <div class="profile-card" onclick="window.location.href='Akrist.html';">
+            <div class="profile-image"><img src="/images/Akrist.png" alt="Akrist"></div>
+            <div class="profile-content">
+                <h1>Akrist Regmi</h1>
+                <h3>UI/UX Designer</h3>
+                <p class="tagline">UI/UX Design for a greener future.</p>
+                <div class="skills"><span>Design</span><span>CSS</span></div>
+                <div class="socials"><i class="fa-solid fa-envelope"></i><i class="fa-brands fa-github"></i></div>
+            </div>
+        </div>
+
+        <div class="profile-card" onclick="window.location.href='Sanskriti.html';">
+            <div class="profile-image"><img src="/images/sanskriti.jpeg" alt="Sanskriti"></div>
+            <div class="profile-content">
+                <h1>Sanskriti Prasai </h1>
+                <h3>Lead Researcher</h3>
+                <p class="tagline">Data and research expert.</p>
+                <div class="skills"><span>Research</span><span>Design</span></div>
+                <div class="socials"><i class="fa-solid fa-envelope"></i><i class="fa-brands fa-github"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="mission-section">
+        <center>
+            <h3 style="margin-top: 20px;">Our Mission</h3>
+            <p style="max-width: 600px; padding: 10px; font-style: italic;">
+                At EcoMart, our mission is to bridge the gap between convenience and conservation. 
+                We empower individuals to make a positive impact on the planet by providing a 
+                curated marketplace of high-quality, eco-friendly products.
+            </p>
+        </center>
+    </div>
+
+    <hr>
+    
+   
+<div class="feedback-container">
+  <h2>Give us Feedback</h2>
+
+  <form id="feedbackForm">
+    <div class="form-row">
+      <label>Name:</label>
+      <input type="text" name="visitor_name" required>
+    </div>
+
+    <div class="form-row">
+      <label>Email:</label>
+      <input type="email" name="visitor_email" required>
+    </div>
+
+    <div class="form-row">
+      <div style="margin-bottom: 8px;">Message:</div>
+      <textarea name="visitor_message" required></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">Submit</button>
+  </form>
+</div>
+
+<script>
+  const form = document.getElementById("feedbackForm");
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const name = form.visitor_name.value.trim();
+    const email = form.visitor_email.value.trim();
+    const message = form.visitor_message.value.trim();
+
+    if (name && email && message) {
+      alert("Thanks for your feedback, " + name + "!");
+      form.reset();
+    } else {
+      alert("Please fill out all fields.");
+    }
+  });
+</script>
+
+
+                                <!--Footer-->
+    <footer class="footer">
+        <div class="footer-container">
+
+                <!-- Brand Section -->
+            <div class="footer-brand">
+                <div class="logo-1">
+                    <div class="logo-1">
+                        
+                        <h2>EcoMart</h2>
+                    </div>
+                </div>
+                    <p>
+                    Your trusted source for sustainable lifestyle products.
+                    Making eco-friendly living accessible to everyone.
+                    </p>
+            </div>
+
+                <!-- Quick Links -->
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./Pages/product.html">Products</a></li>
+                    <li><a href="./Pages/Blog.html">Blog</a></li>
+                    <li><a href="./Pages/Research.html">Research</a></li>
+                    <li><a href="./Pages/About.html">About Us</a></li>
+                </ul>
+            </div>
+
+                <!-- Contact -->
+                <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>📍 Kathmandu,Nepal</p>
+                <p>✉️ Ecomart.web@gmail.com</p>
+                <p>📞 +977 9824259521</p>
+                </div>
+
+        </div>
+    </footer>
+
+<script src="./JS/form.js"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: Cormorant Garamond, serif;
+
+
+    border: borer-box; /*padding of an element or border size sjpuld be count as height */
+}
+
+.border{
+    border: 1.25px solid transparent;
+}
+
+.border:hover{
+    border: 1.25px solid black;
+}
+
+.Name-border{
+    width: 10%;
+    font-size: 13.6px;
+}
+
+body{
+    background-image: url("/images/Background.png");
+    background-size: cover;
+}
+.Anchor{
+    text-decoration: none;
+}
+
+.Tag{               /*Nav anchor Tag */
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 2px;
+    font-weight: 700;
+
+}
+
+.All-line{
+    border:none;
+    height: 4px;
+    background-color: green;
+}
+
+
+
+
+                 /*****          NavBar          ***/
+.navbar{
+    height: 60px;
+    background-color: beige;
+    color: #dcc7a1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid green;
+}
+
+.nav-logo{
+   height: 50px;
+   width: 50px;
+   text-align: center;
+
+}
+
+.logo{
+     background-image: url("/images/Logo.png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+    margin: 0%;
+    padding-right: 8px;
+}
+
+.EcoMart{           /*Name of Store */
+    color: #2e2e2e;
+    font-size: 32px;
+    margin-left: 0px;
+    font-weight: 550;
+}
+
+.add-home{          /*Home Icon*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-products{           /*product Icon*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-research{           /*Research Icon*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-aboutUs{            /*About Icon*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.add-Contact{          /*Contact Icon*/  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-cart{          /*Cart Icon*/ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cart{              /*Cart*/ 
+    color: black;
+    font-size: 16px;
+    margin-left: 2px;
+    font-weight: 700;
+}
+
+                /*****          NavBar Ends Here        ***/
+
+:root {
+  --eco-green: #5a8d44;
+  --soft-green: #eef5e9;
+  --glass: rgba(255, 255, 255, 0.8);
+}
+
+body {
+  background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); 
+  font-family: 'Poppins', sans-serif;
+
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+.profile-cardMember {
+  background: var(--glass);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  padding: 40px;
+  height:650px;
+  width:950px;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin-left: 340px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.profile-cardMember:hover {
+  transform: translateY(-10px);
+}
+
+.image-section img {
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.name {
+  color: #2d4f1e;
+  font-size: 32px;
+  margin: 0;
+}
+
+.role {
+  color: var(--eco-green);
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.detail-item {
+  text-align: left;
+  margin-bottom: 15px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.tags span {
+  background: var(--eco-green);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12.8px;
+  margin-right: 5px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 14.4px;
+  color: white;
+  background: #333; /* Default GitHub color */
+  transition: opacity 0.3s;
+}
+
+.btn.email { background: var(--eco-green); }
+.btn.linkedin { background: #0077b5; }
+.btn:hover { opacity: 0.8; }
+
+
+
+
+
+                                         /*Footer*/
+
+.footer {
+  background-color: #2f5d3a;
+  color: #f3f1eb;
+  padding: 60px 80px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 60px;
+}
+
+/* Brand */
+.footer-brand p {
+  margin-top: 16px;
+  line-height: 1.6;
+  max-width: 320px;
+}
+
+
+
+.logo-1 h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+/* Headings */
+.footer h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+/* Links */
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: #f3f1eb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #c7e8c2;
+}
+
+/* Contact */
+.footer-contact p {
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

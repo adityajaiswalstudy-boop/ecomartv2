@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+
+    border: borer-box; /*padding of an element or border size sjpuld be count as height */
+}
+
+.border{
+    border: 1.25px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid black;
+}
+
+.Name-border{
+    width: 10%;
+    font-size: 13.6px;
+}
+
+body{
+    background-image: url("/images/Background.png");
+    background-size: cover;
+}
+.Anchor{
+    text-decoration: none;
+}
+
+.Tag{               /*Nav anchor Tag */
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 2px;
+    font-weight: 700;
+
+}
+
+
+
+
+                 /*****          NavBar          ***/
+.navbar{
+    height: 60px;
+    background-color: beige;
+    color: #dcc7a1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid green;
+}
+
+.nav-logo{
+   height: 50px;
+   width: 50px;
+
+}
+
+.logo{
+     background-image: url("/EcoMart/images/Logo.png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+.EcoMart{           /*Name of Store */
+    color: #2e2e2e;
+    font-size: 32px;
+    margin-left: 0px;
+    font-weight: 550;
+}
+
+.add-home{          /*Home Icon*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-products{           /*product Icon*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-research{           /*Research Icon*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-aboutUs{            /*About Icon*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.add-Contact{          /*Contact Icon*/  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-cart{          /*Cart Icon*/ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cart{              /*Cart*/ 
+    color: black;
+    font-size: 16px;
+    margin-left: 2px;
+    font-weight: 700;
+}
+
+                /*****          NavBar Ends Here        ***/
+                /* ================= RESET ================= */
+  
+
+
+
+.research-page { 
+    padding: 50px 80px;
+    background-color: #f2f8f4; 
+}
+
+/* == HEADING ==== */
+.research-heading h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 90px;
+}
+
+.research-heading p {
+    text-align: center;
+    font-size: 14px;
+    color: #2f4f3a;
+    margin-bottom: 60px;
+}
+
+/* ==== METHODOLOGY ==== */
+.research-methodology {
+    background-color: #dff1e6; 
+    border: 2px solid #2f6f4e;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+/*==== BLOCK (HOME / PRODUCT) === */
+.research-block {
+    background-color: #e6f4ec; 
+    padding: 70px 35px;
+    margin-bottom: 120px;
+    border: 2px dashed #2f6f4e;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.page-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    color: #1f3d2b;
+}
+
+/* == COMPARISON ROW === */
+.comparison-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+/* == SIDE BOX === */
+.side-box {
+    width: 30%;
+    text-align: center;
+}
+
+.side-box p {
+    margin-top: 12px;
+    font-weight: bold;
+    color: #1f3d2b;
+}
+
+/* Image placeholder */
+.image-box {
+    width: 100%;
+    height: 550px;
+    border: 2px solid #2f6f4e;
+    border-radius: 8px;
+    object-fit: cover;
+    background-color: #cfe8db; 
+}
+
+/* ==== MIDDLE BOX === */
+.middle-box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info-box {
+    background-color: #cfe8db;
+    border: 2px solid #2f6f4e;
+    border-radius: 8px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #1f3d2b;
+}
+
+/* === FOOTER == */
+.footer {
+    background-color: #2f6f4e;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 60px;
+}
